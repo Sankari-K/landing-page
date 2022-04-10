@@ -4,6 +4,11 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+.container {
+    display:flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
 .header {
     padding: 0 225px;
     background-color: #1f2937;
@@ -54,6 +59,7 @@
     color: white;
     border-radius: 10px;
     font-size: 16px;
+    border-style: none;
 }
 .cards-portion {
     padding: 40px;
@@ -98,6 +104,42 @@
     text-align: left;
     color: #000000bb;
     margin-bottom: 10px;
+}
+
+.sign-up {
+    margin: 80px 250px;
+    background-color: #3882f6;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.sign-up p {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.sign-up button {
+    color: #ffffff;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 0 30px;
+    font-weight: 500;
+    font-size: 20px;
+    border-style:solid;
+    border-color: #ffffff;
+}
+.sign-up span {
+    color: #ffffffbb;
+}
+.footer {
+    background-color: #1f2937;
+    padding: 40px;
+    text-align: center;
+    color: #ffffffdd;
+    font-size: 18px;
 }
 ul {
     list-style: none;
